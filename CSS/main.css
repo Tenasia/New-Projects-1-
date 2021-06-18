@@ -1,5 +1,40 @@
-div {
+* {
+    box-sizing: border-box;
+}
+
+div.contact-info {
     background-color: azure;
     border: 1px solid aquamarine;
     padding: 30px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 20px 0;
+}
+
+section.education-info {
+    display: inline-block;
+    width: 800px;
+    background-color: azure;
+    border: 1px solid aquamarine;
+    padding: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+section.employment-info {
+    display: inline-block;
+    width: 800px;
+    background-color: azure;
+    border: 1px solid aquamarine;
+    padding: 30px;
+    margin: 20px 0 0 20px;
+    float: left;
 }
